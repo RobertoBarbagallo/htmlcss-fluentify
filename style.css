@@ -27,6 +27,7 @@ header{
 
 
 #logo{
+
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -98,10 +99,10 @@ nav ul li a{
 .hero{
     height: 100%;
     width: 100%;
-  background-image: url(img/background-header.png);
-  background-size: contain;
-  background-position-x: right;
-  background-repeat: no-repeat;
+    background-image: url(img/background-header.png);
+     background-size: contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
 }
 
 .hero-content{
@@ -169,6 +170,35 @@ nav ul li a{
 }
 
 
+    /* bottom section stuff */
+
+
+.bottom-content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.bottom-content h1, p, a{
+    text-align: center;
+}
+
+
+.bottom-section img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+    /* footer */
+
+
+    
 
 /* useful classes */
 
@@ -180,9 +210,12 @@ section{
     height: 70vh;
 }
 
-
 .banner-section{
     height: 20vh;
+}
+
+.bottom-section{
+    height: 70vh;
 }
 
 
