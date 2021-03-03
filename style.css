@@ -198,7 +198,29 @@ nav ul li a{
     /* footer */
 
 
+.footer-section h1{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.footer-content{
     
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+
+
+
+.footer-btn{
+    padding: 15px 20px;
+    font-size: 24px;
+    margin: 0 15px;
+
+}
+
 
 /* useful classes */
 
@@ -218,6 +240,10 @@ section{
     height: 70vh;
 }
 
+
+.footer-section{
+    height: 15vh;
+}
 
 .bg-blue{
     background-color: #0C325A; 
