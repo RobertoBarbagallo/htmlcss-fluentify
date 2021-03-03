@@ -147,7 +147,7 @@ nav ul li a{
 
 
 
-    /* illustration stuff */
+     /* illustration stuff */
 
 
 .illustration{
@@ -219,7 +219,9 @@ nav ul li a{
     transform: translateY(-50%); 
 }
 
-
+.footer-content select{
+    width: 100px;
+}
 
 
 .footer-btn{
@@ -237,6 +239,11 @@ position: fixed;
 bottom: 0px;
 right: 50px;
 }
+
+
+
+
+
 
 
 /* useful classes */
@@ -312,6 +319,7 @@ button{
 .three{
     width: calc(100% / 3);
 }
+
 
 
 
