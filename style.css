@@ -21,7 +21,9 @@ header{
 
 
 .wrapper{
+   
     width: 85%;
+    min-width: 1200px;
     margin: auto;
     height: 100%;  
 }
@@ -182,13 +184,9 @@ nav ul li a{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-}
-
-
-
-.bottom-content h1, p, a{
     text-align: center;
 }
+
 
 .bottom-content a{
     display: block;
