@@ -121,16 +121,38 @@ nav ul li a{
     font-size: 24px;
 }
 
+    /* banner stuff */
+
+.banner-content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner-content h3, p{
+    text-align: center;
+}
 
 
-
+.banner-content p{
+    color: #7F7F7F;
+    margin-top: 20px;
+}
 
 
 /* useful classes */
 
+section{
+    height: 100%;;
+}
+
 .bg-blue{
-    background-color: #0C325A;
-    height: 100%;
+    background-color: #0C325A; 
+}
+
+
+.bg-grey{
+    background-color: #D3D3D3;
 }
 
 .clearfix::after{
@@ -158,6 +180,10 @@ button{
 
 .normal-section{
     height: 70vh;
+}
+
+.banner-section{
+    height: 20vh;
 }
 
 
