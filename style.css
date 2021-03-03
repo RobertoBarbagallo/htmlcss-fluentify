@@ -218,7 +218,16 @@ nav ul li a{
     padding: 15px 20px;
     font-size: 24px;
     margin: 0 15px;
+}
 
+
+/* fixed help button */
+
+#help{
+padding: 10px;
+position: fixed;
+bottom: 0px;
+right: 50px;
 }
 
 
