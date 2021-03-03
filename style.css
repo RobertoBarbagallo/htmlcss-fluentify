@@ -6,3 +6,113 @@
     box-sizing: border-box;
 }
 
+
+/* header stuff */
+
+header{
+    height: 80px;  
+}
+
+
+.wrapper{
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    
+}
+
+.raw{
+    height: 100%;
+   
+}
+
+
+#logo{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+#logo, nav{
+   float:left;
+}
+
+nav{
+    height: 100%;
+    padding-left: 40px;
+}
+
+
+nav ul{
+    list-style: none;
+    height: 100%;
+}
+
+nav ul li{
+    float: left;
+}
+
+
+
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    line-height: 80px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.elements{
+    float: right;
+    height: 100%;
+
+}
+
+.elements h3, button{
+    display: inline-block;
+}
+
+.elements h3{
+    color: white;
+    text-transform: uppercase;
+    height: 100%;
+    line-height: 80px;
+}
+
+.elements button{
+ padding: 5px 10px;
+ margin-left: 10px;
+ text-transform: uppercase;
+ border-radius: 8px;
+ 
+}
+
+
+
+/* useful classes */
+
+.bg-blue{
+    background-color: #0C325A;
+    height: 100%;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.trasparent-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  
+}
+
+.green-btn{
+    background-color: #7ABA02;
+    border-style: none;
+}
