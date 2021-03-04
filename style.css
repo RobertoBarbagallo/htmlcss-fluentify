@@ -252,19 +252,23 @@ section{
 
 .fixed-section{
     height: 70vh;
+    min-height: 70vh;
 }
 
 .banner-section{
     height: 20vh;
+    min-height: 20vh;
 }
 
 .bottom-section{
     height: 70vh;
+    min-height: 70vh;
 }
 
 
 .footer-section{
     height: 15vh;
+    min-height: 15vh;
 }
 
 .bg-blue{
